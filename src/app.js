@@ -1,5 +1,5 @@
 import express from 'express'
-import dicaController from "./controllers/controller"
+import dicaController from "./controllers/controller.js"
 
 const app = express()
 const port = 3003
