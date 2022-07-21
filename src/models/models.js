@@ -6,7 +6,7 @@ class Dica {
 
     insereDica = (dica) => {
         console.log(db.dica);
-        bd.dica.push(dica);
+        db.dica.push(dica);
         console.log(db.dica);
     }
 
