@@ -1,8 +1,8 @@
 import Dica from "../models/models"
 
-const dicaController = (app,db) => {
+const dicaController = (app,) => {
     app.get('/dica',(req,res) => {
-        const dica = new Dica ()
+        const dica = new Dica (req.body.dica)
         res.json({"Dicas": dica.pegaDica()})
     })
 
